@@ -1,8 +1,9 @@
 const Display = ({result}) => {
     return (
-      <form>
-        <input type="text" value={result}/>
-      </form>
+      <div>
+        <span className="operacion">{result.operacion}</span>
+        <span className="resultado">{result.resultado}</span>
+      </div>
     );
   }
   

@@ -24,10 +24,24 @@ body {
   grid-gap: 3px;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(50px, auto);
+  margin-top: 120px;
 }
 
-input[type='text']{
-  height: 90px;
+.operacion {
+  height: 35px;
+  width: 295px;
+  background-color: #f3f3f3;
+  border: 0px;
+  color: black;
+  text-align: right;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+}
+
+.resultado {
+  margin-top: 35px;
+  height: 65px;
   width: 295px;
   background-color: #f3f3f3;
   border: 0px;
@@ -35,6 +49,7 @@ input[type='text']{
   text-align: right;
   font-size: 45px;
   font-weight: 400;
+  position: absolute;
 }
 
 button {
